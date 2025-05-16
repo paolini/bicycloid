@@ -6,7 +6,7 @@ class Cycloid {
         this.L = this.R * 2.5;
         this.angle = Math.random() * 2 * Math.PI;
         this.x = -Math.cos(this.angle) * this.R - this.L
-        this.y = Math.random() * height;
+        this.y = Math.random() * (height-2*this.R) + this.R;
         this.options = options;
         this.points = [];
         this.color = 'rgb(' + Math.round(Math.random() * 128) + ',' + Math.round(Math.random() * 128) + ',' + Math.round(Math.random() * 128) + ')';
