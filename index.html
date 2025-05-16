@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <canvas width="640" height="480"></canvas>
+    </body>
+    <script src="world.js"></script>
+    <script src="cycloid.js"></script>
+    <script>
+        const $canvas = document.querySelector('canvas')
+        $canvas.width = window.innerWidth;
+        $canvas.height = window.innerHeight;
+        new World($canvas, {
+            nObjects: 5, 
+        })
+    </script>
+</html>
