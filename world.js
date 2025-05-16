@@ -4,7 +4,7 @@ class World {
         this.objects = []
         this.options = {
             nObjects: 100,
-            fillColor: 'rgb(0, 0, 0)',
+            fillColor: 'rgb(243, 159, 201)',
             ...options }
         this.width = $canvas.width;
         this.height = $canvas.height;
